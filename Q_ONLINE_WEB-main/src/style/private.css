@@ -1,3 +1,4 @@
+
 .main-private-layout {
   padding-left: 8rem;
 }
@@ -156,4 +157,13 @@
 
 .hidden {
   display: none;
+}
+
+.content-pdf{
+  height: 4in;
+  width: 4in;
+}
+.font-number-q{
+  font-size:100pt;
+
 }

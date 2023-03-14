@@ -5,16 +5,13 @@ export const Menu = [
     icon: 'fa-solid fa-q',
     pathname: '/admin/book-an-appointment',
     type: 1,
-    role: 1, // เห็นได้แค่ role 1
-    
   },
   {
     id: 2,
     title: 'ตารางเปิดจองคิว',
     icon: 'fa-solid fa-calendar-days',
-    pathname: '/admin/open_schedule',
+    pathname: '/admin/open-schedule',
     type: 1,
-    role: [1,2],  // เห็นได้ทั้ง 2 role
   },
   {
     id: 3,
@@ -39,7 +36,7 @@ export const Menu = [
         id: 33,
         title: 'ประเภทการรักษา',
         icon: 'fa-solid fa-minus',
-        pathname: '/admin/treatment_type',
+        pathname: '/admin/treatment-type',
       },
     ],
   },
